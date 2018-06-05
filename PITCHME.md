@@ -5,9 +5,9 @@
 ---
 @title[Rob Info]
 
-<img src="assets/logo_horizontal.png" class="faroImage"/>
-<img src="assets/react-logo.png" class="faroImage" />
-<img src="assets/tekopora_logo2.png" class="faroImage tekoImage"/>
+<a href="http://314coins.com"><img src="assets/logo_horizontal.png" class="faroImage"/>
+<img src="assets/react-logo.png" class="faroImage" /></a>
+<a href="http://tekopora.com"><img src="assets/tekopora_logo2.png" class="faroImage tekoImage"/></a>
 <hr />
 <span class="smallText">
     Software Engineer, 314coin's Co-Founder, Teko Porã's Producer <br/>
@@ -15,8 +15,9 @@
 <hr />
 @fa[medium] @robsonsjre <br/>
 @fa[envelope] robsonsjre@gmail.com <br/>
-@fa[link] <span class="smallText"> http://314coins.com</span> </br>
-@fa[link] <span class="smallText"> http://tekopora.com</span> </br>
+@fa[linkedin] <a href="www.linkedin.com/in/robsonsjre">
+robsonsjre</a> <br/>
+
 
 ---
 
