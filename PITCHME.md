@@ -5,8 +5,8 @@
 ---
 @title[Rob Info]
 
-<img src="assets/314-horizontal.svg" class="faroImage"/>
-<img src="assets/rob.jpeg" class="faroImage" />
+<img src="assets/3logo_horizontal.jpeg" class="faroImage"/>
+<img src="assets/react-logo.png" class="faroImage" />
 <img src="assets/tekopora_logo.png" class="faroImage"/>
 <hr />
 <span class="smallText">
