@@ -6,8 +6,8 @@
 @title[Rob Info]
 
 <img src="assets/314-horizontal.svg" class="faroImage"/>
-<img src="assets/react.png" class="faroImage" />
-<img src="assets/Teko.jpg" class="faroImage"/>
+<img src="assets/rob.jpeg" class="faroImage" />
+<img src="assets/tekopora_logo.png" class="faroImage"/>
 <hr />
 <span class="smallText">
     Software Engineer, 314coin's Co-Founder, Teko Porã's Producer <br/>
