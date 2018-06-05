@@ -14,7 +14,7 @@
     React/Node, Blockchain/Cryptocurrencies, Music Manager</span>
 <hr />
 @fa[medium] @robsonsjre <br/>
-@fa[envelope] robsonsjre@gmail.com <br/> <br/>
+@fa[envelope] robsonsjre@gmail.com <br/>
 @fa[link] <span class="smallText"> http://314coins.com</span> </br>
 @fa[link] <span class="smallText"> http://tekopora.com</span> </br>
 
