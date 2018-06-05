@@ -5,13 +5,13 @@
 ---
 @title[Rob Info]
 
-<img src="assets/about/3d-machine-vision-vertical-2.jpg" class="faroImage"/>
-<img src="assets/about/faro.png" class="faroImage" />
-<img src="assets/about/factory-metrology-vertical-2.jpg" class="faroImage"/>
+<img src="assets/314-horizontal.svg" class="faroImage"/>
+<img src="assets/react.png" class="faroImage" />
+<img src="assets/Teko.jpg" class="faroImage"/>
 <hr />
 <span class="smallText">
-    Software Engineer, 314coin's Co-Founder <br/>
-    React (+3 Years), Node, Blockchain && Cryptocurrencies, Teko Porã's Musical Producer, Online Marketing</span>
+    Software Engineer, 314coin's Co-Founder, Teko Porã's Producer <br/>
+    React && Node, Blockchain && Cryptocurrencies, Music Management</span>
 <hr />
 @fa[medium] @robsonsjre <br/>
 @fa[github] Robsonsjre </br>
