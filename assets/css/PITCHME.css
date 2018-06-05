@@ -18,9 +18,13 @@
 
 .reveal img.faroImage{
     display:inline-block;
-    width:30%;
+    width:25%;
     background-color: transparent;
     border:0px;
+}
+
+.reveal img.faroImage.tekoImage{
+  width: 18%
 }
 
 .reveal .smallText{ font-size:60%}
