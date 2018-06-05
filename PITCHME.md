@@ -3,11 +3,19 @@
 ##### <span style="font-family:Helvetica Neue; font-weight:bold">A <span style="color:#e49436">Learning</span>Walking through </span>
 
 ---
-@title[Theme Switcher]
+@title[Rob Info]
 
-## Slideshow Theme Switcher
-<span style="font-size:0.6em; color:gray">Available inside burger-menu.</span> |
-<span style="font-size:0.6em; color:gray">Start switching themes right now!</span>
+<img src="assets/about/3d-machine-vision-vertical-2.jpg" class="faroImage"/>
+<img src="assets/about/faro.png" class="faroImage" />
+<img src="assets/about/factory-metrology-vertical-2.jpg" class="faroImage"/>
+<hr />
+<span class="smallText">
+    Software Engineer, 314coin's Co-Founder <br/>
+    React (+3 Years), Node, Blockchain && Cryptocurrencies, Teko Porã's Musical Producer, Online Marketing</span>
+<hr />
+@fa[medium] @robsonsjre <br/>
+@fa[github] Robsonsjre </br>
+@fa[envelope] robsonsjre@gmail.com <br/>
 
 ---
 @title[Go Fullscreen]
