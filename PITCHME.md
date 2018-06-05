@@ -7,25 +7,18 @@
 
 <img src="assets/logo_horizontal.png" class="faroImage"/>
 <img src="assets/react-logo.png" class="faroImage" />
-<img src="assets/tekopora_logo.png" class="faroImage"/>
+<img src="assets/tekopora_logo2.png" class="faroImage"/>
 <hr />
 <span class="smallText">
     Software Engineer, 314coin's Co-Founder, Teko Porã's Producer <br/>
-    React && Node, Blockchain && Cryptocurrencies, Music Management</span>
+    React/Node, Blockchain/Cryptocurrencies, Music Manager</span>
 <hr />
 @fa[medium] @robsonsjre <br/>
 @fa[github] Robsonsjre </br>
 @fa[envelope] robsonsjre@gmail.com <br/>
 
 ---
-@title[Go Fullscreen]
-
-## Tip!
-For the *best viewing experience*   
-press **F** key to go fullscreen.
-
----
-
+<!--
 ## Markdown Slides
 <span style="font-size:0.6em; color:gray">Press Down key for details.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slide-Markdown) for details.</span>
@@ -44,6 +37,7 @@ The *same syntax* you use to create project
 **READMEs** and **Wikis** for your Git repos.
 
 ---
+-->
 
 ## Code Presenting
 ## Repo Source Files
