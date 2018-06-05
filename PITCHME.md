@@ -5,12 +5,12 @@
 ---
 @title[Rob Info]
 
-<a href="http://314coins.com"><img src="assets/logo_horizontal.png" class="faroImage"/>
-<img src="assets/react-logo.png" class="faroImage" /></a>
+<a href="http://314coins.com"><img src="assets/logo_horizontal.png" class="faroImage"/></a>
+<img src="assets/react-logo.png" class="faroImage" />
 <a href="http://tekopora.com"><img src="assets/tekopora_logo2.png" class="faroImage tekoImage"/></a>
 <hr />
 <span class="smallText">
-    Software Engineer, 314coin's Co-Founder, Teko Porã's Producer <br/>
+    <span class="highlight">Software Engineer</span>, 314coin's <span class="highlight">Co-Founder</span>, Teko Porã's <span class="highlight">Producer</span> <br/>
     React/Node, Blockchain/Cryptocurrencies, Music Manager</span>
 <hr />
 @fa[medium] @robsonsjre <br/>
