@@ -32,6 +32,10 @@ robsonsjre</a> <br/>
 
 ### It's a JavaScript Library to create interactive interfaces
 
++++
+### Created by Facebook on 2013 to solve chat updating problem
+
+@fa[arrow-down]
 ---
 @title[Advantages]
 
