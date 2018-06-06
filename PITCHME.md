@@ -195,12 +195,56 @@ function SimplePage() {
 
 @fa[arrow-down]
 
-+++?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=Scala&title=Source: Scala GIST
++++
+### Composing Components
+````javascript
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
 
-@[23](You can even present code found within any GitHub GIST.)
-@[41-53](GIST source code is beautifully rendered on any slide.)
-@[57-62](Code-presenting works seamlessly both online and offline.)
+function App() {
+  return (
+    <div>
+      <Welcome name="Sara" />
+      <Welcome name="Cahal" />
+      <Welcome name="Edite" />
+    </div>
+  );
+}
 
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+````
+
+@[1-3](Component A, data and ux with Props)
+@[5-13](Component B)
+
++++
+### Expanding Props
+
+````javascript
+function Welcome(props) {
+  return <h1>Hello, {props.name || props.email}</h1>;  
+}
+
+function App() {
+  return (
+    <div>
+      <Welcome name='' email="Sara@gmail.com" />
+      <Welcome name="Cahal" />
+      <Welcome name="Edite" />
+    </div>
+  );
+}
+````
+
+@[2](Include another props)
+@[8](You should pass another props)
+
++++
+### Breaking into small components
 ---
 @title[Lifecycle]
 
