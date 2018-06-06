@@ -75,6 +75,8 @@ robsonsjre</a> <br/>
 +++
 ## Developers wanted
 <img src="assets/stackoverflow.png"/>
+<span style="color:gray; font-size: 0.5em;">the <b>[Stackoverflow survey 2017]</b>(https://insights.stackoverflow.com/survey/2017)</span>
+
 
 ---
 ## The main Topics to Learn
@@ -154,7 +156,6 @@ a *visual punch* to your slideshow presentations.
 ![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
 
 
-<span style="color:gray; font-size: 0.5em;">the <b>Private Investocat</b> by [jeejkang](https://github.com/jeejkang)</span>
 
 
 +++
