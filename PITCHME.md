@@ -13,7 +13,7 @@
     <span class="highlight">Software Engineer</span>, 314coin's <span class="highlight">Co-Founder</span>, Teko Porã's <span class="highlight">Producer</span> <br/>
     React/Node, Blockchain/Cryptocurrencies, Music Manager</span>
 <hr />
-@fa[medium] @robsonsjre <br/>
+@fa[github] Robsonsjre <br/>
 @fa[envelope] robsonsjre@gmail.com <br/>
 @fa[linkedin] <a href="www.linkedin.com/in/robsonsjre">
 robsonsjre</a> <br/>
@@ -36,7 +36,7 @@ robsonsjre</a> <br/>
 
 +++
 ### Created by Facebook on 2013 to solve chat updating problem
-![Image-Absolute](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" class="faroImage" />
 ---
 @title[Advantages]
 
