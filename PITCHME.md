@@ -245,6 +245,81 @@ function App() {
 
 +++
 ### Breaking into small components
+<img src="assets/udacity_component.png" />
+
++++
+````javascript
+function Comment(props) {
+  return (
+    <div className="Comment">
+      <div className="UserInfo">
+        <img className="Avatar"
+          src={props.author.avatarUrl}
+          alt={props.author.name}
+        />
+        <div className="UserInfo-name">
+          {props.author.name}
+        </div>
+      </div>
+      <div className="Comment-text">
+        {props.text}
+      </div>
+      <div className="Comment-status">
+        {props.status)}
+      </div>
+    </div>
+  );
+}
+````
+
+@[4-8](Avatar Component)
+@[9-17](Text + Status Component)
++++
+## Break Avatar and User Info Component
+````javascript
+function Avatar(props) {
+  return (
+    <div className="UserInfo">
+      <img className="Avatar"
+        src={props.author.avatarUrl}
+        alt={props.author.name}
+      />
+  );
+}
+
+function UserInfo(props) {
+  return (
+  <div>
+      <div className="UserInfo-name">
+        {props.author.name}
+      </div>
+      <div className="Comment-text">
+        {props.text}
+      </div>
+      <div className="Comment-status">
+        {props.status)}
+      </div>
+  </div>
+  )
+}
+
+````
++++
+### Final Component More Simple
+````javascript
+function Comment(props) {
+  return (
+    <div className="Comment">
+      <Avatar url={props.author.avatarUrl} alt={props.author.name}/>
+      <UserInfo name={props.author.name} text={props.text} status={props.status}/>  
+    </div>
+  );
+}
+````
++++
+
+
+
 ---
 @title[Lifecycle]
 
@@ -255,394 +330,83 @@ function App() {
 @fa[arrow-down]
 
 +++
-
-#### Make A Visual Statement
-
-<br>
-
-Use inline images to lend   
-a *visual punch* to your slideshow presentations.
-
-
-+++
-@title[Private Investocat]
-
-<span style="color:gray; font-size:0.7em">Inline Image at <b>Absolute URL</b></span>
-
-![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
-
-
-
-
-+++
-@title[Octocat De Los Muertos]
-
-<span style="color:gray; font-size:0.7em">Inline Image at GitHub Repo <b>Relative URL</b></span>
-
-![Image-Absolute](assets/octocat-de-los-muertos.jpg)
-
-<span style="color:gray; font-size:0.5em">the <b>Octocat-De-Los-Muertos</b> by [cameronmcefee](https://github.com/cameronmcefee)</span>
-
-
-+++
-@title[Daftpunktocat]
-
-<span style="color:gray; font-size:0.7em"><b>Animated GIFs</b> Work Too!</span>
-
-![Image-Relative](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-daftpunkocat.gif)
-
-<span style="color:gray; font-size:0.5em">the <b>Daftpunktocat-Guy</b> by [jeejkang](https://github.com/jeejkang)</span>
-
----
-@title[Background Images]
-
-## Image Slides
-## [ Background ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background) for details.</span>
-
-@fa[arrow-down]
-
-+++
-@title[Bold Statements]
-
-#### Make A Bold Visual Statement
-
-<br>
-
-Use high-resolution background images   
-for *maximum impact*.
-
-+++?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/victory.jpg
-@title[V For Victory]
-
-+++?image=https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/127.jpg
-@title[127.0.0.1]
-
----
-@title[Embed Video]
-## Video Slides
-## [ Inline ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides) for details.</span>
-
-@fa[arrow-down]
-
-+++
-@title[YouTube, etc]
-
-#### Bring Your Presentations Alive
-
-<br>
-
-Embed *YouTube*, *Vimeo*, *MP4* and *WebM*   
-inline on any slide.
-
-+++
-@title[Fresh Guacamole]
-
-![YouTube Video](https://www.youtube.com/embed/dNJdJIwCF_Y)
-
-+++
-@title[Gravity]
-
-![Vimeo Video](https://player.vimeo.com/video/125471012)
-
-+++
-@title[Big Buck Bunny]
-
-![MP4 Video](http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4)
-
-
----
-@title[Background Videos]
-
-## Video Slides
-## [ Background ]
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Video-Slides#background) for details.</span>
-
-@fa[arrow-down]
-
-+++
-@title[Viewer Experience]
-
-#### Maximize The Viewer Experience
-
-<br>
-
-Go fullscreen with *MP4* and *WebM* videos.
-
-+++?video=http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4
-@title[Big Buck Bunny]
-
----
-
-## Math Notation Slides
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Math-Notation-Slides) for details.</span>
-
-@fa[arrow-down]
-
-+++
-@title[Beautiful Math]
-
-#### Beautiful Math Rendered Beautifully
-
-<br>
-
-Use *TeX*, *LaTeX* and *MathML* markup   
-powered by [MathJax](https://www.mathjax.org).
-
-+++
-@title[Sample]
-
-`$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$`
-
-+++
-@title[Sample]
-
-`\begin{align}
-\dot{x} & = \sigma(y-x) \\
-\dot{y} & = \rho x - y - xz \\
-\dot{z} & = -\beta z + xy
-\end{align}`
-
-+++
-@title[Sample]
-
-##### The Cauchy-Schwarz Inequality
-
-`\[
-\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
- \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-\]`
-
-+++
-@title[Inline Sample]
-
-##### In-line Mathematics
-
-This expression `\(\sqrt{3x-1}+(1+x)^2\)` is an example of an inline equation.
-
----
-
-## Chart Slides
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Chart-Slides) for details.</span>
-
-@fa[arrow-down]
-
-+++
-@title[Chart Types]
-
-#### Chart Data Rendered Beautifully
-
-<br>
-
-Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types directly within your markdown, all powered by [Chart.js](http://www.chartjs.org).
-
-+++
-@title[Sample Line Chart]
-
-<canvas data-chart="line">
-
-{
- "data": {
-  "labels": ["January"," February"," March"," April"," May"," June"," July"],
-  "datasets": [
-   {
-    "data":[65,59,80,81,56,55,40],
-    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
-   },
-   {
-    "data":[28,48,40,19,86,27,90],
-    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
-   }
-  ]
- },
- "options": { "responsive": "true" }
-}
-
-</canvas>
-
-+++
-@title[Sample Bar Chart]
-
-<canvas class="stretch" data-chart="horizontalBar">
-
-{
- "data" : {
-  "labels" : ["Grapefruit", "Orange", "Kiwi",
-    "Blackberry", "Banana",
-    "Blueberry"],
-  "datasets" : [{
-    "data": [48, 26, 59, 39, 21, 74],
-    "backgroundColor": "#e49436",
-    "borderColor": "#e49436"
-  }]
-  },
-  "options": {
-    "title": {
-      "display": true,
-      "text": "The most delicious fruit?",
-      "fontColor": "gray",
-      "fontSize": 20
-    },
-    "legend": {
-      "display": false
-    },
-    "scales": {
-      "xAxes": [{
-        "ticks": {
-            "beginAtZero": true,
-            "max": 80,
-            "stepSize": 10,
-            "fontColor": "gray"
-        },
-        "scaleLabel": {
-          "display": true,
-          "labelString": "Respondents",
-          "fontColor": "gray"
-        }
-      }],
-      "yAxes": [{
-        "ticks": {
-            "fontColor": "gray"
-        }
-      }]
-    }
+```JavaScript
+class Clock extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {date: new Date()};
+  }
+
+  componentDidMount() {
+    this.timerID = setInterval(
+      () => this.tick(),
+      1000
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timerID);
+  }
+
+  tick() {
+    this.setState({
+      date: new Date()
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+        <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
+      </div>
+    );
   }
 }
-
-</canvas>
-
----
-
-## Slide Fragments
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Fragment-Slides) for details.</span>
-
-@fa[arrow-down]
-
-+++
-
-#### Reveal Slide Concepts Piecemeal
-@title[Piecemeal Concepts]
-
-<br>
-
-Step through slide content in sequence   
-to *slowly reveal* the bigger picture.
-
-+++
-@title[Piecemeal Lists]
-
-- Java
-- Groovy |
-- Kotlin |
-- Scala  |
-- The JVM rocks! |
-
-+++
-@title[Piecemeal Tables]
-
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>25</td>
-  </tr>
-  <tr class="fragment">
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-  <tr class="fragment">
-    <td>John</td>
-    <td>Doe</td>
-    <td>43</td>
-  </tr>
-</table>
-
----
-## <span style="text-transform: none">PITCHME.yaml</span> Settings
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings) for details.</span>
-
-@fa[arrow-down]
-
-+++
-@title[Custom Look and Feel]
-
-#### Stamp Your Own Look and Feel
-
-<br>
-
-Set a default theme, custom logo, custom css, background image, and preferred code syntax highlighting style.
-
-+++
-@title[Custom Behavior]
-
-#### Customize Slideshow Behavior
-
-<br>
-
-Enable auto-slide with custom slide intervals, presentation looping, and RTL flow.
-
-
----
-@title[Keyboard Controls]
-## Slideshow Keyboard Controls
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Fullscreen-Mode) for details.</span>
-
-@fa[arrow-down]
-
-+++
-@title[Try Out Now!]
-
-#### Try Out These Great Features Now!
-
-<br>
-
-| Mode | On Key | Off Key |
-| ---- | :------: | :--------: |
-| Fullscreen | F |  Esc |
-| Overview | O |  O |
-| Blackout | B |  B |
-| Help | ? |  Esc |
-
+````
+@[2-5](Constructor: Recebe props, coloca estado inicial)
+@[6-22](Ciclos de vida -> Fetch no banco, listeners)
+@[23-31](Renderiza a view)
 
 ---
 
-## GitPitch Social
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) for details.</span>
-
-@fa[arrow-down]
+# React native
 
 +++
-@title[Designed For Sharing]
+- Facebook Created special Components for Natives
+- Same developoment as react
+- Flexbox for Styling
+- A lot of libraries with built-in components (Material Design / native elements)
++++
+## <div> -> View / <p> -> <Text> / <img> -> <Image>
+````javascript
+function Avatar(props) {
+  return (
+    <View className="UserInfo">
+      <Image className="Avatar"
+        src={props.author.avatarUrl}
+        alt={props.author.name}
+      />
+      <Text>Titulo da imagem</Text>
+      </View>
+  );
+}
 
-#### Slideshows Designed For Sharing
+---
+@title[Where to Learn]
+
+#### Where to Learn
 
 <br>
 
-- View any slideshow at its public URL
-- [Promote](https://github.com/gitpitch/gitpitch/wiki/Slideshow-GitHub-Badge) any slideshow using a GitHub badge
-- [Embed](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Embedding) any slideshow within a blog or website
-- [Share](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Sharing) any slideshow on Twitter, LinkedIn, etc
-- [Print](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Printing) any slideshow as a PDF document
-- [Download and present](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Offline) any slideshow offline
+- [This presentation](https://gitpitch.com/Robsonsjre/react-presentation/master?grs=github#)
+- [Learn React](https://onlinecourses.guru/topic/learn-react-js)
+- [React JS / React Native](https://www.facebook.com/groups/reactjs.co)
+- [Dan Abramov's Course (REACT / REDUX / REACTNATIVE)](https://egghead.io/courses/start-learning-react)
+
 
 ---
 @title[Get The Word Out!]
 
 ## GO FOR IT.
-## JUST ADD <span style="color:#e49436; text-transform: none">PITCHME.md</span> ;)
+## Dúvidas?
