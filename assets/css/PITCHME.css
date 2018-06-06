@@ -26,8 +26,7 @@
 .reveal img.halfImage{
     display:inline-block;
     align-content: center;
-    width:45%;
-    height: 45%;
+    width:100%;
     background-color: transparent;
     border:0px;
 }
