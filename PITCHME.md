@@ -81,9 +81,7 @@ robsonsjre</a> <br/>
 
 ---
 ## The main Topics to Learn
-@fa[arrow-down]
 
-+++
 - State
 - JSX
 - Components / Props
@@ -153,8 +151,8 @@ $('#inc').on('click', function () {
 </script>
 ````
 @[6](Objeto para armazenar estado da página)
-@[8-11](Função para atualizar estado, no caso do React, ele faz comparação de objetos no VirtualDOM)
-@[18-21](Ao clicar no botão, chama a função de atualizar)
+@[8-11](Função para atualizar interface, no caso do React, ele faz comparação de objetos do estado)
+@[18-21](Ao clicar no botão, atualiza estado, e chama função update interface)
 ---
 @title[JSX]
 # JSX
