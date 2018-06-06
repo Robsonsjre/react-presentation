@@ -126,6 +126,34 @@ $('#inc').on('click', function () {
 ````
 @[10-14](Botão lê DOM e escreve DOM diretamente.)
 
+## JQuery React way
+````javascript
+<span id="colored-counter">0</span>
+<input id="color"></input>
+<button id="inc"></button>
+
+<script>
+var state = {color: '', value: 0};
+
+function updateUI() {
+    $('#colored-counter').css('color', state.color);
+    $('#colored-counter').html(state.value);
+}
+
+$('#color').on('keyup', function () {
+    state.color = this.value;
+    updateUI();
+})
+
+$('#inc').on('click', function () {
+    state.value++;
+    updateUI();
+})
+</script>
+````
+@[5](Objeto para armazenar estado da página)
+@[8-11](Função para atualizar estado, no caso do React, ele faz comparação de objetos por imutabilidade)
+@[18-21](Ao clicar no botão, não usa mais o state)
 ---
 @title[JSX]
 # JSX
