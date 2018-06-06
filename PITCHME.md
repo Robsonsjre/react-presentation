@@ -30,7 +30,7 @@ robsonsjre</a> <br/>
 
 +++
 
-# It's a JavaScript Library to create interactive interfaces
+### It's a JavaScript Library to create interactive interfaces
 
 +++?code=src/go/server.go&lang=golang&title=Source: Golang File
 
@@ -41,11 +41,20 @@ robsonsjre</a> <br/>
 ---
 @title[Advantages]
 
-## What is the advantages/differences?
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
+## What is the advantages?
+<span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 @fa[arrow-down]
+
++++
+
+- Organization
+ * Mix JavaScript and HTML (JSX) |
+- Performance
+ * Virtual DOM |
+- Escalability / Work in team  
+ * Componentização / State Control |
 
 +++
 <p><span class="menu-title slide-title">Source: JavaScript Block</span></p>
