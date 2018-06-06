@@ -32,10 +32,11 @@ robsonsjre</a> <br/>
 
 ### It's a JavaScript Library to create interactive interfaces
 
+@fa[arrow-down]
+
 +++
 ### Created by Facebook on 2013 to solve chat updating problem
-
-@fa[arrow-down]
+![Image-Absolute](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png)
 ---
 @title[Advantages]
 
@@ -53,6 +54,11 @@ robsonsjre</a> <br/>
 - Escalabilidade / Work in team |  
  > Componentização / Controle de estado
 
++++
+## gráfico de Performance
+
++++
+## empresas usando / stackoverflow chart
 ---
 # JSX
 ### markup language and logic together!
