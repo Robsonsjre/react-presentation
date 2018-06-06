@@ -24,7 +24,7 @@ robsonsjre</a> <br/>
 @title[What is React]
 ## What is React?
 <span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
-<span style="font-size:0.6em; color:gray">See [React Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+<span style="font-size:0.6em; color:gray">See [React Wiki](https://reactjs.org/docs/hello-world.html) for details.</span>
 
 @fa[arrow-down]
 
@@ -32,9 +32,9 @@ robsonsjre</a> <br/>
 
 ### It's a JavaScript Library to create interactive interfaces
 
-+++?code=src/go/server.go&lang=golang&title=Source: Golang File
++++?code=src/jsx.js&lang=JavaScript&title=Source: JSX explaning
 
-@[1,3-6](Present code found within any repo source file.)
+@[1,10](Parece HTML, mas é JavaScript.)
 @[8-18](Without ever leaving your slideshow.)
 @[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
@@ -43,18 +43,17 @@ robsonsjre</a> <br/>
 
 ## What is the advantages?
 <span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 @fa[arrow-down]
 
 +++
 
-- Organização |
+- Organização
  > Mix JavaScript and HTML - JSX
 - Performance |
  > *Virtual DOM*
 - Escalabilidade / Work in team |  
- > Componentização / Controle de estado (*REDUX*)
+ > Componentização / Controle de estado
 
 +++
 <p><span class="menu-title slide-title">Source: JavaScript Block</span></p>
