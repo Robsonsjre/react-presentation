@@ -49,12 +49,12 @@ robsonsjre</a> <br/>
 
 +++
 
-- Organization
- * Mix JavaScript and HTML (JSX) |
-- Performance
- * Virtual DOM |
-- Escalability / Work in team  
- * Componentização / State Control |
+- Organização |
+ * Mix JavaScript and HTML - *JSX*
+- Performance |
+ * *Virtual DOM*
+- Escalabilidade / Work in team |  
+ * Componentização / Controle de estado (*REDUX*)
 
 +++
 <p><span class="menu-title slide-title">Source: JavaScript Block</span></p>
