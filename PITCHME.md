@@ -21,12 +21,16 @@ robsonsjre</a> <br/>
 
 ---
 
-## Code Presenting
-## Repo Source Files
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+@title[What is React]
+## What is React?
+<span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
+<span style="font-size:0.6em; color:gray">See [React Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 @fa[arrow-down]
+
++++
+
+# It's a JavaScript Library to create interactive interfaces
 
 +++?code=src/go/server.go&lang=golang&title=Source: Golang File
 
@@ -35,10 +39,9 @@ robsonsjre</a> <br/>
 @[19-28](Using GitPitch code-presenting with (optional) annotations.)
 
 ---
-@title[Present Static Block]
+@title[Advantages]
 
-## Code Presenting
-## Static Source Blocks
+## What is the advantages/differences?
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
 <span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
