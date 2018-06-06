@@ -95,13 +95,13 @@ robsonsjre</a> <br/>
 <span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
 
 +++
-## State abstraction between user and element
+### State abstraction between user and element
 <img src="assets/event_state_1.png" />
 <img src="assets/event_state_2.png" />
 @fa[arrow-down]
 
 +++
-## It gets worse for complex applications
+### It gets worse for complex applications
 <img src="assets/event_state_3.png" />
 <img src="assets/event_state_4.png" />
 
@@ -126,6 +126,7 @@ $('#inc').on('click', function () {
 ````
 @[10-14](Botão lê DOM e escreve DOM diretamente.)
 
++++
 ## JQuery React way
 ````javascript
 <span id="colored-counter">0</span>
@@ -184,10 +185,9 @@ $('#inc').on('click', function () {
 ---
 @title[Lifecycle]
 
-## Image Slides
-## [ Inline ]
+# Lifecycle
+## Important component methods
 <span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Image-Slides) for details.</span>
 
 @fa[arrow-down]
 
