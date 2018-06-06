@@ -23,6 +23,14 @@
     border:0px;
 }
 
+.reveal img.halfImage{
+    display:inline-block;
+    align-content: center;
+    width:45%;
+    background-color: transparent;
+    border:0px;
+}
+
 .reveal img.faroImage.tekoImage{
   width: 18%
 }

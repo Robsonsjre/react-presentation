@@ -1,6 +1,6 @@
 @title[Introduction]
 ## The React && React Native Presentation
-##### <span style="font-family:Helvetica Neue; font-weight:bold">A <span style="color:#e49436">Learning</span>Walking through </span>
+##### <span style="font-family:Helvetica Neue; font-weight:bold">A <span style="color:#e49436">Learning</span> Walking through </span>
 
 ---
 @title[Rob Info]
@@ -47,15 +47,18 @@ robsonsjre</a> <br/>
 
 +++
 
-- Organização
- > Mix JavaScript and HTML - JSX
+- Escalabilidade / Work in team  
+  * Componentização / Controle de estado
 - Performance |
- > *Virtual DOM*
-- Escalabilidade / Work in team |  
- > Componentização / Controle de estado
+  * Virtual DOM*
+- Learn Once, Code all
+  * Web / IOs / Android
 
 +++
-## gráfico de Performance
+## Never modify your interface directly
+<img src="assets/event_state_1.png" class="halfImage"/>
+<img src="assets/event_state_2.png" class="halfImage" />
+@fa[arrow-down]
 
 +++
 ## empresas usando / stackoverflow chart
