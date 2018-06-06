@@ -76,7 +76,7 @@ robsonsjre</a> <br/>
 ## Developers wanted
 <img src="assets/stackoverflow.png"/>
 </br>
-<span style="color:gray; font-size: 0.5em;">the [Stackoverflow Survey 2017]</b>(https://insights.stackoverflow.com/survey/2017)</span>
+<span style="color:gray; font-size: 0.5em;">the [Stackoverflow Survey 2017](https://insights.stackoverflow.com/survey/2017)</span>
 
 
 ---
