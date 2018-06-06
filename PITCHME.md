@@ -89,18 +89,42 @@ robsonsjre</a> <br/>
 - Components / Props
 - Lifecycle
 ---
-
+@title[State]
 # State
+## Never modify your interface directly
+<span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
 
 +++
-## Never modify your interface directly
+## State abstraction between user and element
 <img src="assets/event_state_1.png" />
 <img src="assets/event_state_2.png" />
 @fa[arrow-down]
 
 +++
+## It gets worse for complex applications
 <img src="assets/event_state_3.png" />
 <img src="assets/event_state_4.png" />
+
++++
+## JQuery usual way
+````javascript
+<span id="colored-counter">0</span>
+<input id="color"></input>
+<button id="inc"></button>
+
+<script>
+$('#color').on('keyup', function () {
+    $('#colored-counter').css('color', this.value);
+})
+
+$('#inc').on('click', function () {
+    var oldValue = $('#colored-counter').html();
+    var newValue = 1 + Number(oldValue);
+    $('#colored-counter').html(newValue);
+})
+</script>
+````
+@[10-14](Botão lê DOM e escreve DOM diretamente.)
 
 ---
 @title[JSX]
@@ -118,8 +142,8 @@ robsonsjre</a> <br/>
 ---
 
 # Components / Props
+## Break'into small pieces
 <span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
-<span style="font-size:0.6em; color:gray">See [Components Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 @fa[arrow-down]
 
@@ -130,7 +154,7 @@ robsonsjre</a> <br/>
 @[57-62](Code-presenting works seamlessly both online and offline.)
 
 ---
-@title[Embed Images]
+@title[Lifecycle]
 
 ## Image Slides
 ## [ Inline ]
