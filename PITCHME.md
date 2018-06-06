@@ -161,7 +161,6 @@ $('#inc').on('click', function () {
 
 +++?code=src/jsx.js&lang=JavaScript&title=Source: JSX explaning
 
-@[1,3-4,17-18](Parece HTML, mas é JavaScript.)
 @[6](Aceita quase todos elementos de HTML nativo)
 @[9](Aceita variáveis/expressões no meio do HTML)
 @[10](Conditional statments)
