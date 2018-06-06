@@ -381,7 +381,10 @@ class Clock extends React.Component {
 +++
 
 ## Div/View p/Text img/Image
-```javascript
+```JavaScript
+import React, { Component } from 'react';
+import { Text, View, Image } from 'react-native';
+
 function Avatar(props) {
   return (
     <View className="UserInfo">
@@ -393,11 +396,12 @@ function Avatar(props) {
       </View>
   );
 }
+```
 
 ---
 @title[Where to Learn]
 
-#### Where to Learn
+# Where to Learn
 
 <br>
 
