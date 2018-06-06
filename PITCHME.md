@@ -275,7 +275,7 @@ function Comment(props) {
 @[4-8](Avatar Component)
 @[9-17](Text + Status Component)
 +++
-## Break Avatar and User Info Component
+### Break Avatar and User Info Component
 ````javascript
 function Avatar(props) {
   return (
@@ -317,7 +317,8 @@ function Comment(props) {
 }
 ````
 +++
-
+### New division of elementos
+<img src="assets/udacity_component_divided.png" />
 
 
 ---
@@ -378,8 +379,9 @@ class Clock extends React.Component {
 - Flexbox for Styling
 - A lot of libraries with built-in components (Material Design / native elements)
 +++
-## <div> -> View / <p> -> <Text> / <img> -> <Image>
-````javascript
+
+## Div/View p/Text img/Image
+```javascript
 function Avatar(props) {
   return (
     <View className="UserInfo">
