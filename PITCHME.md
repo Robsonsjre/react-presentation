@@ -32,12 +32,6 @@ robsonsjre</a> <br/>
 
 ### It's a JavaScript Library to create interactive interfaces
 
-+++?code=src/jsx.js&lang=JavaScript&title=Source: JSX explaning
-
-@[1,10](Parece HTML, mas é JavaScript.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
-
 ---
 @title[Advantages]
 
@@ -55,35 +49,17 @@ robsonsjre</a> <br/>
 - Escalabilidade / Work in team |  
  > Componentização / Controle de estado
 
-+++
-<p><span class="menu-title slide-title">Source: JavaScript Block</span></p>
+---
+# JSX
+### markup language and logic together!
+<span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
 
-```javascript
-// Include http module.
-var http = require("http");
++++?code=src/jsx.js&lang=JavaScript&title=Source: JSX explaning
 
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
-```
-
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
+@[1,3-4,8-10](Parece HTML, mas é JavaScript.)
+@[4,8](Sempre retornar um único elemento.)
+@[6](Aceita quase todos elementos de HTML nativo)
+@[7](Aceita variáveis/funções no meio do HTML) annotations.)
 
 ---
 @title[Present GIST]
