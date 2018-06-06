@@ -102,8 +102,8 @@ robsonsjre</a> <br/>
 
 +++
 ### It gets worse for complex applications
-<img src="assets/event_state_3.png" />
-<img src="assets/event_state_4.png" />
+<img src="assets/event_state_3.png" style="width: 50%"/>
+<img src="assets/event_state_4.png" style="width: 50%"/>
 
 +++
 ## JQuery usual way
@@ -152,9 +152,9 @@ $('#inc').on('click', function () {
 })
 </script>
 ````
-@[5](Objeto para armazenar estado da página)
-@[8-11](Função para atualizar estado, no caso do React, ele faz comparação de objetos por imutabilidade)
-@[18-21](Ao clicar no botão, não usa mais o state)
+@[6](Objeto para armazenar estado da página)
+@[8-11](Função para atualizar estado, no caso do React, ele faz comparação de objetos no VirtualDOM)
+@[18-21](Ao clicar no botão, chama a função de atualizar)
 ---
 @title[JSX]
 # JSX
