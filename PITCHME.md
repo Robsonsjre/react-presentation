@@ -50,19 +50,57 @@ robsonsjre</a> <br/>
 - Escalabilidade / Work in team  
   * Componentização / Controle de estado
 - Performance |
-  * Virtual DOM*
-- Learn Once, Code all
+  * Virtual DOM
+- Learn Once, Code all |
   * Web / IOs / Android
 
 +++
-## Never modify your interface directly
-<img src="assets/event_state_1.png" class="halfImage"/>
-<img src="assets/event_state_2.png" class="halfImage" />
+### Companies using react/react native
+<div>
+<img src="assets/apps/airbnb.png" class="faroImage"/>
+<img src="assets/apps/paypal.png" class="faroImage" />
+<img src="assets/apps/facebook.png" class="faroImage faroImage"/>
+</div>
+<div>
+<img src="assets/apps/pinterest.png" class="faroImage"/>
+<img src="assets/apps/skype.png" class="faroImage" />
+<img src="assets/apps/uber.png" class="faroImage faroImage"/>
+</div>
+
+
++++
+## Performance
+<img src="assets/performance.png"/>
+
++++
+## Developers wanted
+<img src="assets/stackoverflow.png"/>
+
+---
+## The main Topics to Learn
 @fa[arrow-down]
 
 +++
-## empresas usando / stackoverflow chart
+- State
+- JSX
+- Components / Props
+- Lifecycle
 ---
+
+# State
+
++++
+## Never modify your interface directly
+<img src="assets/event_state_1.png" />
+<img src="assets/event_state_2.png" />
+@fa[arrow-down]
+
++++
+<img src="assets/event_state_3.png" />
+<img src="assets/event_state_4.png" />
+
+---
+@title[JSX]
 # JSX
 ### markup language and logic together!
 <span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
@@ -71,16 +109,14 @@ robsonsjre</a> <br/>
 
 @[1,3-4,8-10](Parece HTML, mas é JavaScript.)
 @[4,8](Sempre retornar um único elemento.)
-@[6-6](Aceita quase todos elementos de HTML nativo)
-@[7-7](Aceita variáveis/funções no meio do HTML) annotations.)
+@[6](Aceita quase todos elementos de HTML nativo)
+@[7](Aceita variáveis/funções no meio do HTML) annotations.)
 
 ---
-@title[Present GIST]
 
-## Code Presenting
-## GitHub GIST
-<span style="font-size:0.6em; color:gray">Press Down key for examples.</span> |
-<span style="font-size:0.6em; color:gray">See [GitPitch Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
+# Components / Props
+<span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
+<span style="font-size:0.6em; color:gray">See [Components Wiki](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting) for details.</span>
 
 @fa[arrow-down]
 
