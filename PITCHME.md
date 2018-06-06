@@ -293,7 +293,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
 @title[Sample Line Chart]
 
 <canvas data-chart="line">
-<!--
+
 {
  "data": {
   "labels": ["January"," February"," March"," April"," May"," June"," July"],
@@ -310,14 +310,14 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
  },
  "options": { "responsive": "true" }
 }
--->
+
 </canvas>
 
 +++
 @title[Sample Bar Chart]
 
 <canvas class="stretch" data-chart="horizontalBar">
-<!--
+
 {
  "data" : {
   "labels" : ["Grapefruit", "Orange", "Kiwi",
@@ -361,7 +361,7 @@ Use *Bar*, *Line*, *Area*, and *Scatter* charts among many other chart types dir
     }
   }
 }
--->
+
 </canvas>
 
 ---
