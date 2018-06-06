@@ -35,7 +35,7 @@ robsonsjre</a> <br/>
 ---
 @title[Advantages]
 
-## What is the advantages?
+## Why using it?
 <span style="font-size:0.6em; color:gray">Press Down key for deep dive.</span> |
 
 @fa[arrow-down]
@@ -58,8 +58,8 @@ robsonsjre</a> <br/>
 
 @[1,3-4,8-10](Parece HTML, mas é JavaScript.)
 @[4,8](Sempre retornar um único elemento.)
-@[6](Aceita quase todos elementos de HTML nativo)
-@[7](Aceita variáveis/funções no meio do HTML) annotations.)
+@[6-6](Aceita quase todos elementos de HTML nativo)
+@[7-7](Aceita variáveis/funções no meio do HTML) annotations.)
 
 ---
 @title[Present GIST]
